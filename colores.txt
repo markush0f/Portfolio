@@ -1,0 +1,10 @@
+5. Arcoíris Suave
+Fondo: Gris oscuro (#2C2C2C)
+Texto: Beige (#F5F5DC)
+Colores de Acento:
+Lila (#A96BBA)
+Verde pasto (#A4D65E)
+Coral (#FF6F61)
+
+<!-- En los proyectos hacer un que si hay mas imagense que se hagan scroll para los lados y que sean infinitos, hacerlos con librerias -->
+<!-- Ademas de cuando tenga mas proyectos, poner los secundarios en otro contenedor  que se vean al pulsarlo -->

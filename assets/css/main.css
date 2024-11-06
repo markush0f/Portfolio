@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+/* @keyframes gradientBackground {
+    0% { background-color: #1e3a8a; }
+    50% { background-color: #3b82f6; }
+    100% { background-color: #1e3a8a; }
+}
+animation: gradientBackground 3s ease infinite; */
+
+body{
+    background: rgb(44,44,44);
+    background: radial-gradient(circle at center 10%, rgba(44,44,44,1) 20%, rgba(22,22,22,1) 100%);
+    color: #F5F5DC;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+}
+
+.nav-bar {
+    margin-top: 20px;
+    display: flex; 
+    justify-content: center; 
+}
+
+.nav-bar ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 14px; 
+    font-size: 19px;
+    font-weight:bold ;
+
+}
+
+.nav-bar li:hover {
+    transition: all 0.27s ease-in-out;
+    color: #A96BBA;
+}
+
+.nav-bar li {
+    cursor: pointer;
+}
+
+
+
+

@@ -1,0 +1,111 @@
+#projects {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#projects h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #A96BBA;
+    margin-left: 2px;
+    font-size: 30px;
+}
+
+.project-left, .project-right {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    max-width: 100%;
+    position: relative;
+    border: 1px solid #F5F5DC;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.project-left {
+    flex-direction: row;
+}
+
+.project-right {
+    flex-direction: row-reverse;
+}
+
+.project-img-left, .project-img-right {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.project-img-left {
+    margin-right: 10px;
+}
+
+.project-img-right {
+    margin-left: 10px;
+}
+
+.project-name-left, .project-name-right {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #A4D65E;
+    margin-bottom: 5px;
+}
+
+
+.project-description-left, .project-description-right {
+    font-size: 1em;
+    max-width: 300px;
+}
+
+.project-info-left, .project-info-right {
+    color: #F5F5DC;
+}
+
+.technologies-project-left, .technologies-project-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.technologies-project-left{
+    margin-left: 40px;
+}
+
+.technologies-project-right{
+    margin-right: 40px;
+}
+
+.technology-img {
+    padding:10px;
+    width: 50px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.project-link-right, .project-link-left {
+    border: 2px solid #FF6F61;
+    text-decoration: none;
+    color: #F5F5DC ;
+    border-radius: 50px;
+    padding: 18px 36px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #FF6F61;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.project-link-right:hover, .project-link-left:hover {
+    box-shadow: inset 0 100px 0 0 #FF6F61;
+
+}
+
+
+.mongodb {
+    width: 28px;
+    height: auto;
+}
